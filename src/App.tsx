@@ -4,12 +4,14 @@ import {
   StyleSheet,
   Text,
 } from 'react-native';
+import { HomeScreen } from './modules/Home';
 
 const App = () => {
   return (
     <Fragment>
       <SafeAreaView>
         <Text>MagicalTodo</Text>
+        <HomeScreen />
       </SafeAreaView>
     </Fragment>
   );
