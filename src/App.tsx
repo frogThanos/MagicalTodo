@@ -1,24 +1,12 @@
 import React, { Fragment } from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  Text,
-} from 'react-native';
-import { HomeScreen } from './modules/Home';
+import { AppNavigator } from './modules/Navigation';
 
 const App = () => {
   return (
     <Fragment>
-      <SafeAreaView>
-        <Text>MagicalTodo</Text>
-        <HomeScreen />
-      </SafeAreaView>
+      <AppNavigator/>
     </Fragment>
   );
 };
-
-const styles = StyleSheet.create({
-
-});
 
 export default App;

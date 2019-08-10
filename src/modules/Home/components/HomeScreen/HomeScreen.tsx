@@ -1,12 +1,16 @@
 import React, { PureComponent } from 'react';
-import { ScrollView, Text } from 'react-native';
+import { Text, SafeAreaView, ScrollView } from 'react-native';
+interface HomeScreenProps {
+}
 
-class HomeScreen extends PureComponent {
+class HomeScreen extends PureComponent<HomeScreenProps, null> {
   render() {
     return (
-      <ScrollView>
-        <Text>This is the HomeScreen</Text>
-      </ScrollView>
+      <SafeAreaView>
+        <ScrollView>
+          <Text>This is the HomeScreen</Text>
+        </ScrollView>
+      </SafeAreaView>
     );
   }
 }
