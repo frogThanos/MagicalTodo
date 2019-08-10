@@ -2,15 +2,6 @@ import { StyleSheet } from 'react-native';
 import Config from '../../../../config';
 
 const styles = StyleSheet.create({
-  container: {
-    backgroundColor: Config.Colors.appBackground,
-    height: '100%',
-  },
-  title: {
-    fontSize: 22,
-    alignSelf: 'center',
-    marginTop: 20,
-  },
   inputAndButtonContainer: {
     display: 'flex',
     flexDirection: 'row',
