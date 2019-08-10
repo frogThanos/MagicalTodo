@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import { ScrollView, Text, SafeAreaView } from 'react-native';
+import Config from '../../../../config';
 
 interface SettingsScreenProps {
 }
@@ -9,7 +10,7 @@ class SettingsScreen extends PureComponent<SettingsScreenProps, null> {
     return (
       <SafeAreaView>
         <ScrollView>
-          <Text>This is the SettingsScreen</Text>
+          <Text>{Config.Strings.Settings_Title}</Text>
         </ScrollView>
       </SafeAreaView>
     );

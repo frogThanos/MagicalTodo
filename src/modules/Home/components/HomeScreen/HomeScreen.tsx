@@ -1,5 +1,7 @@
 import React, { PureComponent } from 'react';
 import { Text, SafeAreaView, ScrollView } from 'react-native';
+import Config from '../../../../config';
+
 interface HomeScreenProps {
 }
 
@@ -8,7 +10,7 @@ class HomeScreen extends PureComponent<HomeScreenProps, null> {
     return (
       <SafeAreaView>
         <ScrollView>
-          <Text>This is the HomeScreen</Text>
+          <Text>{Config.Strings.Home_Title}</Text>
         </ScrollView>
       </SafeAreaView>
     );
